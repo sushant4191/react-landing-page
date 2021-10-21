@@ -1,0 +1,24 @@
+.navbar{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+}
+
+.logo{
+  font-size: 2rem;
+  color: darkblue;
+  font-weight: 550;
+}
+
+.join{
+  font-size: 1rem;
+  background-color: white;
+  padding: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 25px;
+  border: 0.5px solid rgba(128, 128, 128, 0.2);
+}

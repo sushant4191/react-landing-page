@@ -1,0 +1,167 @@
+.page3{
+  /* Make clm reverse in mobile view */
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(266, 100%, 30%);
+  padding: 8rem;
+  border-radius: 11px;
+  
+}
+
+.page3Text{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  
+}
+
+#test1
+{
+  color:rgb(175, 174, 174);
+  margin:-30px;
+}
+#f1
+{
+  text-indent:13px;
+}
+input{
+  text-indent: 13px;
+}
+
+.page3Text .head{
+  color: white;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  
+}
+
+.page3Text .sub{
+color: rgba(255, 255, 255, 0.6);
+  width: 80%;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+
+.page3Form{
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  
+}
+
+/* 
+.page3Form .join{
+  display: flex;
+  background-color: orangered;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;  
+  font-weight: 700;
+}
+
+.page3Form .join:hover{
+  color: black;
+  background-color: white;
+
+}
+
+.page3Form .join img{
+  height: 1rem;
+} */
+.page3Form .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  height:50px;
+  padding: 0.75rem 1.25rem;
+  border:none;
+  font-weight: 700;
+  border-radius: 40px;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color:white;
+  
+}
+.page3Form .button:after {
+  content: '';
+  border:none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+  background-color: #EB3D35;
+  z-index: -2;
+}
+.page3Form .button:before {
+  content: '';
+  border:none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  color:#FFFFFF;
+  background-color: #ececec;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.page3Form .button:hover {
+  color: #000000;
+}
+.button:hover:before {
+  width: 100%;
+  color: #FFFFFF;
+}
+
+
+.page3Form .button img{
+  margin-left: 5px;
+  height: 1rem;
+}
+
+.page1Img{
+  display: flex;
+  justify-content: flex-end;
+}
+.page1Img img{
+  width: 90%;
+}
+
+
+.page3Form input{
+  border: 0px;
+  width: 35rem;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.page3Form select{
+  border: 0px;
+  width: 35rem;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-weight: 600;
+}
+
+option{
+  background-color: white;
+}
+
